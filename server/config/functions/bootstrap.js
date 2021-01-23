@@ -36,6 +36,7 @@ module.exports = async () => {
   await setPermission("public", "application", "event", "findone", true);
   await setPermission("public", "application", "talk", "find", true);
   await setPermission("public", "application", "talk", "findone", true);
+  await setPermission("public", "application", "talk", "create", true);
 
   await setPermission("speaker", "application", "event", "find", true);
   await setPermission("speaker", "application", "event", "findone", true);
